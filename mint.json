@@ -1,0 +1,64 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "StudyOps by Rnpathfinders",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#6C5CE7",
+    "light": "#A29BFE",
+    "dark": "#6C5CE7",
+    "anchors": { "from": "#6C5CE7", "to": "#00D4FF" }
+  },
+  "topbarLinks": [{ "name": "Launch App", "url": "https://rnpathfinder.netlify.app" }],
+  "topbarCtaButton": { "name": "Get Started Free", "url": "https://rnpathfinder.netlify.app" },
+  "tabs": [
+    { "name": "Features", "url": "features" },
+    { "name": "For Students", "url": "for-university-students" },
+    { "name": "Help", "url": "help" }
+  ],
+  "anchors": [
+    { "name": "Launch StudyOps", "icon": "rocket", "url": "https://rnpathfinder.netlify.app" },
+    { "name": "Instagram", "icon": "instagram", "url": "https://instagram.com/rnpathfinders" }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction", "getting-started/quick-start", "getting-started/meet-sage", "getting-started/first-steps"]
+    },
+    {
+      "group": "Features",
+      "pages": ["features/sage-ai-chat", "features/quiz-generator", "features/study-planner", "features/file-analysis", "features/lecture-recording", "features/adaptive-learning", "features/spaced-repetition", "features/exam-prediction", "features/gamification", "features/study-groups", "features/offline-mode"]
+    },
+    {
+      "group": "For Nigerian Students",
+      "pages": ["nigerian-students/curriculum-alignment", "nigerian-students/pidgin-mode", "nigerian-students/low-data-mode", "nigerian-students/payment-methods"]
+    },
+    {
+      "group": "University Students",
+      "pages": ["for-university-students/overview", "for-university-students/sciences", "for-university-students/engineering", "for-university-students/medicine", "for-university-students/arts-social-sciences"]
+    },
+    {
+      "group": "Secondary Students",
+      "pages": ["for-secondary-students/jamb-prep", "for-secondary-students/waec-neco", "for-secondary-students/study-tips"]
+    },
+    {
+      "group": "Pricing",
+      "pages": ["pricing/plans", "pricing/compare"]
+    },
+    {
+      "group": "About",
+      "pages": ["about/rnpathfinders", "about/mission"]
+    },
+    {
+      "group": "Help & Support",
+      "pages": ["help/faq", "help/troubleshooting", "help/contact"]
+    }
+  ],
+  "footerSocials": {
+    "instagram": "https://instagram.com/rnpathfinders",
+    "twitter": "https://twitter.com/rnpathfinders"
+  }
+}
